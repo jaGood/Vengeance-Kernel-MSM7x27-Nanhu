@@ -57,4 +57,6 @@ obj-$(CONFIG_DRM_OMAP)		+= omapdrm/
 obj-$(CONFIG_ANDROID)		+= android/
 obj-$(CONFIG_PHONE)		+= telephony/
 obj-$(CONFIG_RAMSTER)		+= ramster/
+obj-$(CONFIG_SNAPPY_COMPRESS)   += snappy/
+obj-$(CONFIG_SNAPPY_DECOMPRESS) += snappy/
 obj-$(CONFIG_USB_WPAN_HCD)	+= ozwpan/
